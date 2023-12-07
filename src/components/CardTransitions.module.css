@@ -1,0 +1,24 @@
+.card-animation {
+  width: 18rem;
+  animation-name: fadeOutUp;
+  animation-duration: 400ms;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  transition: transform 150ms ease-in;
+}
+
+.card-animation:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

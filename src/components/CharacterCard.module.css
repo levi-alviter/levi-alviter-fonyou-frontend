@@ -1,0 +1,16 @@
+h1 {
+  color: aliceblue;
+}
+
+.card-box {
+  max-width: max-content;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-badge {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  z-index: 400;
+}
