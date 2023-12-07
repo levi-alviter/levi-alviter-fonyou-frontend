@@ -11,7 +11,7 @@ module.exports = (env) => {
       app: "./src/index.js",
     },
     output: {
-      filename: "[name].[hash].js",
+      filename: "[name].js",
       publicPath: "/",
     },
     resolve: {
